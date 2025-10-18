@@ -1,4 +1,12 @@
 package ui_tests;
 
-public class HomeTests {
+import manager.ApplicationManager;
+import org.testng.annotations.Test;
+
+public class HomeTests extends ApplicationManager {
+
+    @Test
+    public void firstTest(){
+        System.out.println("First test");
+    }
 }
